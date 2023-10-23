@@ -17,7 +17,7 @@
   "scripts": {
     "install": "bun i",
     "test": "bun test",
-    "build": "bun build ./src/index.ts --out ./dist/index.js --format esm && mkdir -p ./dist",
+    "build": "bun build ./src/index.ts --format esm --output ./dist && mkdir -p ./dist",
     "coverage": "bun coverage"
   }
 }
