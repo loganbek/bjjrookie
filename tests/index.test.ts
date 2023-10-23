@@ -1,6 +1,6 @@
 
-import jest from "jest";
-import { expect } from '@jest/globals';
+// import { jest } from "jest";
+import { describe, it, expect } from '@jest/globals';
 
 function log() {
   return "Hello via Bun!";
