@@ -11,5 +11,9 @@
   "dependencies": {
     "appwrite": "^13.0.0",
     "netlify": "^13.1.10"
+  },
+  "scripts": {
+    "test": "bun test",
+    "coverage": "bun coverage"
   }
 }
