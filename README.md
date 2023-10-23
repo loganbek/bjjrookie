@@ -22,7 +22,7 @@ bjjrookie.com - a website about Brazilian Jiu Jitsu
 
 ## Docs
 
-Check out the [bun docs](correct_bun_url) for more info
-Check out the [appwrite docs](correct_appwrite_url) for more info
-Check out the [netlify docs](correct_netlify_url) for more info
-Check out the [sweep.dev docs](correct_sweep.dev_url) for more info
+Check out the [bun docs](https://bun.dev/docs) for more info
+Check out the [appwrite docs](https://appwrite.io/docs) for more info
+Check out the [netlify docs](https://docs.netlify.com) for more info
+Check out the [sweep.dev docs](https://sweep.dev/docs) for more info
