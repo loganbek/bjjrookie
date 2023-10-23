@@ -2,7 +2,7 @@
 
 TODO: correct netlify badge
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0e2b6b9a-5b0b-4b9c-8b0d-5b6b6b6b6b6b/deploy-status)](https://app.netlify.com/sites/bjjrookie/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e16e1b86-ec4c-4d96-994b-9a91df3ed143/deploy-status)](https://app.netlify.com/sites/bjjrookie/deploys)
 
 bjjrookie.com
 
@@ -14,11 +14,11 @@ bjjrookie.com - a website about Brazilian Jiu Jitsu
 
 ### install dependencies
 
-```bash bun i```
+`bash bun i`
 
 ### run app
 
-```bash bun run index.ts```
+`bash bun run index.ts`
 
 ## Docs
 
