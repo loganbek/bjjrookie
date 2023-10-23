@@ -14,11 +14,11 @@ bjjrookie.com - a website about Brazilian Jiu Jitsu
 
 ### install dependencies
 
-```bash bun i```
+`bash bun i`
 
 ### run app
 
-```bash bun run index.ts```
+`bash bun run index.ts`
 
 ## Docs
 
