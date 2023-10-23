@@ -9,11 +9,15 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@types/jest": "^29.5.6",
     "appwrite": "^13.0.0",
+    "jest": "^29.7.0",
     "netlify": "^13.1.10"
   },
   "scripts": {
+    "install": "bun i",
     "test": "bun test",
+    "build": "bun build ./src/index.ts --out ./dist/index.js --format esm && mkdir -p ./dist",
     "coverage": "bun coverage"
   }
 }
