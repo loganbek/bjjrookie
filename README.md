@@ -23,4 +23,4 @@ bjjrookie.com - a website about Brazilian Jiu Jitsu
 Check out the [bun docs](https://bun.dev/docs) for more info
 Check out the [appwrite docs](https://appwrite.io/docs) for more info
 Check out the [netlify docs](https://docs.netlify.com) for more info
-Check out the [sweep.dev docs](https://sweep.dev/docs) for more info  
+Check out the [sweep.dev docs](https://sweep.dev/docs) for more info
