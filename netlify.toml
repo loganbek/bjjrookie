@@ -1,3 +1,3 @@
 [build]
-command = "bun build ./src/index.js --output ./dist/index.js --format esm --name index && mkdir -p dist"
+command = "bun build ./src/index.ts --output ./dist/index.js --format esm --name index.js && mkdir -p dist"
 publish = "dist"
