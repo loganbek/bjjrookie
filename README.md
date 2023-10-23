@@ -1,7 +1,5 @@
 # bjjrookie
 
-TODO: correct netlify badge
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e16e1b86-ec4c-4d96-994b-9a91df3ed143/deploy-status)](https://app.netlify.com/sites/bjjrookie/deploys)
 
 bjjrookie.com
