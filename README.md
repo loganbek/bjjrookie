@@ -24,6 +24,14 @@ BJJ can be a maze; we're your map. Simplified lessons for a complex art.
 
 `bash bun run index.ts`
 
+### run tests
+
+`npm run test`
+
+### generate code coverage report
+
+`npm run coverage`
+
 ## Docs
 
 Check out the [bun docs](https://bun.dev/docs) for more info.
