@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 const About: React.FC = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch('https://jojo3.com/article')
-      .then(response => response.json())
-      .then(data => setData(data));
+    fetch("https://jojo3.com/article")
+      .then((response) => response.json())
+      .then((data) => setData(data));
   }, []);
 
   return (
