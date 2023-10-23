@@ -33,11 +33,17 @@ blocked_dirs: []
 #
 # docs:
 #   - PyGitHub: ["https://pygithub.readthedocs.io/en/latest/", "We use pygithub to interact with the GitHub API"]
-docs: 
-  - bun: [https://bun.sh/docs, We use bun for building and running the application]
+docs:
+  - bun:
+      [https://bun.sh/docs, We use bun for building and running the application]
   - appwrite: [https://appwrite.io/docs, We use appwrite as our backend service]
-  - netlify: [https://docs.netlify.com/, We use netlify for deploying our application]
-  - typescript: [https://www.typescriptlang.org/docs/, We use typescript as our main programming language]
+  - netlify:
+      [https://docs.netlify.com/, We use netlify for deploying our application]
+  - typescript:
+      [
+        https://www.typescriptlang.org/docs/,
+        We use typescript as our main programming language,
+      ]
 sandbox:
   install:
     - trunk init
