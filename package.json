@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "appwrite": "^13.0.0",
-    "netlify": "^13.1.10"
+    "netlify": "^13.1.10",
+    "react-router-dom": "^6.17.0"
   }
 }
