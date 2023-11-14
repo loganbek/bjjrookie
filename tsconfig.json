@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "next/*": ["node_modules/next/types/", "node_modules/@types/react"]
+    },
     "lib": ["ESNext"],
     "module": "esnext",
     "target": "esnext",

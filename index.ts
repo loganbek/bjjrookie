@@ -1,20 +1,27 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Rankings from './pages/Rankings';
-import Techniques from './pages/Techniques';
-import ContactUs from './pages/ContactUs';
+import Link from 'next/link';
+import App from 'next/app';
+import useRouter from 'next/navigation';
 
-const App = () => (
-  <Router>
-    <Switch>
-      <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/rankings" component={Rankings} />
-      <Route path="/techniques" component={Techniques} />
-      <Route path="/contact-us" component={ContactUs} />
-    </Switch>
-  </Router>
-);
+import React from 'react';
+import 'react-dom';
+import 'nextjs';
 
-export default App;
+import Home from './src/pages/Home';
+import About from './src/pages/About';
+import Rankings from './src/pages/Rankings';
+import Techniques from './src/pages/Techniques';
+import ContactUs from './src/pages/ContactUs';
+
+const BJJRookieApp = () => {
+  const router = useRouter();
+
+  return (
+    <nav>
+    <Link href="/">
+      <a>Home</a>
+    </Link>
+    </nav>
+  );
+};
+
+export default BJJRookieApp;
